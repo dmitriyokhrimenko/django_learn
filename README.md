@@ -6,9 +6,9 @@
 
 *workon* — Список доступных виртуальных сред
 
-*workon <name_of_environment>* — Активация конкретной виртуальной среды Python
+*workon* <name_of_environment> — Активация конкретной виртуальной среды Python
 
-*rmvirtualenv <name_of_environment>* — Удаление конкретной виртуальной среды.
+*rmvirtualenv* <name_of_environment> — Удаление конкретной виртуальной среды.
 
 ### Prepare
    
