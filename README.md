@@ -3,8 +3,11 @@
 ### Useful commands
 
 **_deactivate_** — Выход из текущей виртуальной среды Python
+
 **_workon_** — Список доступных виртуальных сред
+
 **_workon name_of_environment_** — Активация конкретной виртуальной среды Python
+
 **_rmvirtualenv name_of_environment_** — Удаление конкретной виртуальной среды.
 
 ### Prepare
