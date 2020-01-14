@@ -40,8 +40,30 @@ source /usr/local/bin/virtualenvwrapper.sh
  $ mkvirtualenv <your_venv_name>
  ```
  
- 5/ Create venv for project
+ 5/ Установка Django
   
  ```bash
- $ mkvirtualenv <your_venv_name>
+ $ pip3 install django
  ```
+ 
+ 6/ Создание директории проекта
+  
+ ```bash
+ $ mkdir <project_dir>
+ $ cd <project_dir>
+ ```
+
+ 7/ Создание шаблона сайта
+  
+ ```bash
+ $ django-admin startproject <project_name>
+ $ cd <project_name>
+ ```
+
+ 7/ Запуск сервера для проверки
+  
+ ```bash
+ $ python3 manage.py runserver
+ ``` 
+
+  Идем в браузер по адресу http://localhost:8000
