@@ -1,6 +1,6 @@
 # django_learn
 
-### Useful commands
+### Useful commands 
 
 *deactivate* — Exit out of the current Python virtual envirinment
 
