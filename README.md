@@ -2,13 +2,13 @@
 
 ### Useful commands
 
-*deactivate* — Выход из текущей виртуальной среды Python
+*deactivate* — Exit out of the current Python virtual envirinment
 
-*workon* — Список доступных виртуальных сред
+*workon* — List available virtual envirinments
 
-*workon* **<name_of_environment>** — Активация конкретной виртуальной среды Python
+*workon* **<name_of_environment>** — Activate the specified Python virtual environment
 
-*rmvirtualenv* **<name_of_environment>** — Удаление конкретной виртуальной среды.
+*rmvirtualenv* **<name_of_environment>** — Remove the specified virtual environment.
 
 ### Prepare
    
@@ -40,30 +40,30 @@ source /usr/local/bin/virtualenvwrapper.sh
  $ mkvirtualenv <your_venv_name>
  ```
  
- 5/ Установка Django
+ 5/ Install Django
   
  ```bash
  $ pip3 install django
  ```
  
- 6/ Создание директории проекта
+ 6/ Creating a project directory
   
  ```bash
  $ mkdir <project_dir>
  $ cd <project_dir>
  ```
 
- 7/ Создание шаблона сайта
+ 7/ Creating a website template
   
  ```bash
  $ django-admin startproject <project_name>
  $ cd <project_name>
  ```
 
- 7/ Запуск сервера для проверки
+ 7/ Run server
   
  ```bash
  $ python3 manage.py runserver
  ``` 
 
-  Идем в браузер по адресу http://localhost:8000
+  Go to the browser at http://localhost:8000
