@@ -56,7 +56,7 @@ source /usr/local/bin/virtualenvwrapper.sh
  7/ Creating a website template
   
  ```bash
- $ django-admin startproject <project_name>
+ $ django-admin startproject <project_name> .
  $ cd <project_name>
  ```
 
